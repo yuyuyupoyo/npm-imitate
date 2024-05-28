@@ -1,0 +1,268 @@
+/*header*/
+/*共通あれば*/
+body{
+
+    
+}
+/*上段のボタンについて*/
+
+.header {
+    text-align: left;
+    max-width: 1400px;
+}
+
+.list1 {
+    display: flex;
+    text-align: left;
+    list-style: none;
+    transform: scale(0.9, 0.9);
+    margin-right: 50px;
+}
+
+.topBtn {
+    text-decoration: none;
+    color: #000;
+}
+
+.headerBtn {
+    display: block;
+    padding: 10px;
+    position: relative;
+    font-family: 'Poppins';
+}
+
+/*２段目のボタンについて*/
+.list2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    border-top: 1px solid #dcdcdc;
+}
+
+.npmLogo {
+    margin-right: 20px;
+    width: 100px;
+}
+
+.searchBox {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 3px;
+    position: relative;
+}
+
+.searchBox input[type="text"] {
+    width: 800px;
+    height: 50px;
+    background-color: #cccccc45;
+    padding: 8px;
+    font-size: 16px;
+    border: none;
+    box-sizing: border-box;
+}
+
+.searchBox input[type="submit"] {
+    width: 100px;
+    height: 50px;
+    padding: 8px 12px;
+    font-size: 16px;
+    border: none;
+    background-color: #000;
+    color: #fff;
+}
+
+.signUp {
+    width: 100px;
+    height: 30px;
+    border: 1px solid #dcdcdc;
+    padding: 10px;
+    display: inline-block;
+}
+
+.signIn{
+    margin-top: -10px;
+}
+
+
+.middleBtn {
+    text-decoration: none;
+    color: #000;
+    padding: 8px 16px;
+    position: relative;
+    top: 8px;
+}
+
+/*main*/
+/*中央１段目*/
+.picture {
+    filter: brightness(75%);
+}
+
+.container {
+    width: auto;
+    height: auto;
+    position: relative;
+}
+
+.container img {
+    width: 100%;
+}
+
+h1 {
+    position: absolute;
+    top: 5%;
+    left: 30%;
+    font-size: 80px;
+    color: #ffffff;
+    margin: 54px 0px;
+    text-align: center;
+}
+
+p1 {
+    position: absolute;
+    top: 45%;
+    left: 30%;
+    font-size: 16px;
+    color: #ffffff;
+    text-align: center;
+}
+
+h2 {
+    position: absolute;
+    top: 55%;
+    left: 35%;
+    font-size: 32px;
+    color: #ffffff;
+    margin: 20px ;
+    text-align: center;
+}
+
+p2 {
+    position: absolute;
+    top: 70%;
+    left: 30%;
+    font-size: 16px;
+    color: #ffffff;
+    justify-content: center;
+    margin: 20px ;
+    text-align: center;
+}
+
+.list3 {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+
+.middleBtn1 {
+    position: absolute;
+    background: #ffc329;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, .4);
+    color: #000000;
+    top: 83%;
+    left: 35%;
+    text-decoration: none;
+    border-radius: 50px;
+    font-size: 16px;
+    width: 200px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold
+}
+
+.middleBtn2 {
+    position: absolute;
+    font-family: Poppins, sans-serif;
+    box-sizing: border-box;
+    border-radius: 50px;
+    background: #cb3837;
+    color: #ffffff;
+    top: 83%;
+    left: 55%;
+    text-decoration: none;
+    border-radius: 50px;
+    font-size: 16px;
+    width: 200px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+/*中央2段目*/
+
+.container2 {
+    width: auto;
+    height: auto;
+    position: relative;
+    text-align: center;
+    border-bottom: 1px solid #dcdcdc;
+    padding-bottom: 150px;
+}
+
+.container2 img {
+    width: 8%;
+}
+
+h3 {
+    font-size: 24px;
+    color: #333333;
+    transform: scale(1.5);
+    padding: 30px;
+    margin: 30px;
+}
+
+p3 {
+    font-size: 16px;
+    color: #333333;
+}
+
+/*footer*/
+/*ここでやりたいこと。各要素を横並びにし、ちょうどいい余白を持たせる。liの点を消し、色も変える。*/
+
+.footer {
+    padding: 40px 20px;
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 2;
+}
+
+.unity {
+    padding: 30px;
+    margin-right: 30px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.section {
+    flex: 1;
+    margin: 20px;
+}
+
+.list5 {
+    list-style: none;
+    padding: 0;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.footerlist {
+    margin: 20px 0;
+}
+
+.linkBtn {
+    text-decoration: none;
+    color: #333;
+}
