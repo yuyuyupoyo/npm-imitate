@@ -18,7 +18,7 @@
     <header>
         <nav class="header">
             <ul class="list1">
-                <li class="headerBtn"><a class="topBtn" href="https://www.npmjs.com/">❤︎</a></li>
+                <li class="headerBtn"><a class="topBtn1" href="https://www.npmjs.com/">❤︎</a></li>
                 <li class="headerBtn"><a class="topBtn" href="https://www.npmjs.com/products/pro">Pro</a></li>
                 <li class="headerBtn"><a class="topBtn" href="https://www.npmjs.com/products/teams">Teams</a></li>
                 <li class="headerBtn"><a class="topBtn" href="https://www.npmjs.com/products">Pricing</a></li>
@@ -29,57 +29,74 @@
         </nav>
         <!--２段目-->
         <nav>
-            <ul class="list2">
-                <li>
-                    <div class="npmLogo">
-                        <span class=""></span>
-                        <div class="">
-                            <a class="npmLogo" href="https://www.npmjs.com/" aria-label="Npm">
-                                <svg viewBox="0 0 780 250" aria-hidden="true">
-                                    <path fill="#231F20"
-                                        d="M240,250h100v-50h100V0H240V250z M340,50h50v100h-50V50z M480,0v200h100V50h50v150h50V50h50v150h50V0H480z M0,200h100V50h50v150h50V0H0V200z">
-                                    </path>
-                                </svg>
-                            </a>
-                        </div>
-                    </div>
-                </li>
-
-                <li>
+            <div class="list2">
+                <div class="npmLogo">
+                    <span class=""></span>
+                        <a class="npmLogo" href="https://www.npmjs.com/" aria-label="Npm">
+                            <svg viewBox="0 0 780 250" aria-hidden="true">
+                                <path fill="#231F20"
+                                    d="M240,250h100v-50h100V0H240V250z M340,50h50v100h-50V50z M480,0v200h100V50h50v150h50V50h50v150h50V0H480z M0,200h100V50h50v150h50V0H0V200z">
+                                </path>
+                            </svg>
+                        </a>
+                </div>
+                <div class="search-container">
                     <form class="searchBox search" method="get" action="https://www.npmjs.com/">
-                        <input id="sbox1" name="Search" type="text" placeholder="Search packages" /><input id="sbtn1"
-                            type="submit" value="Search" />
+                            <div class="search-box-wrapper nowrap flex">
+                                <span class="db fl pl3 pr1">
+                                    <svg class="icon-container" width="15px" height="15px"
+                                        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 18" aria-hidden="true">
+                                        <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                            <g stroke="#777777" stroke-width="1.3">
+                                                <g>
+                                                    <path
+                                                        d="M13.4044,7.0274 C13.4044,10.5494 10.5494,13.4044 7.0274,13.4044 C3.5054,13.4044 0.6504,10.5494 0.6504,7.0274 C0.6504,3.5054 3.5054,0.6504 7.0274,0.6504 C10.5494,0.6504 13.4044,3.5054 13.4044,7.0274 Z">
+                                                    </path>
+                                                    <path d="M11.4913,11.4913 L17.8683,17.8683"></path>
+                                                </g>
+                                            </g>
+                                        </g>
+                                    </svg>
+                                </span>
+                                <input id="sbox1" name="Search" type="text" class="packages" placeholder="Search packages" /><input
+                                    id="sbtn1" type="submit" value="Search" />
+                            </div>
                     </form>
-                </li>
-                <li class="signUp"><a class="middleBtn" href="https://www.npmjs.com/signup">Sign Up</a></li>
-                <li class="signIn"><a class="middleBtn" href="https://www.npmjs.com/login">Sign in</a></li>
-            </ul>
-        </nav>
+                </div>
+                
+                    <li class="signUp"><a class="middleBtn" href="https://www.npmjs.com/signup">Sign Up</a></li>
+                    <li class="signIn"><a class="middleBtn" href="https://www.npmjs.com/login">Sign in</a></li>
+                
+            </div>
+        </nav> 
     </header>
 
     <main>
-        <article><!--中央１段目-->
+        <section><!--中央１段目-->
             <div class="container">
-                <img class="picture" src="images/background/mainTop.png" alt="背景画像">
-                <h1>Build amazing <br>things</h1>
-                <p1>
-                    We're GitHub, the company behind the npm Registry and npm CLI. We <br>
-                    offer those to the community for free, but our day job is building and <br>
-                    selling useful tools for developers like you.
-                </p1>
-                <h2>Take your JavaScript <br>development up a notch</h2>
-                <p2>
-                    Get started today for free, or step up to npm Pro to enjoy a premium <br>
-                    JavaScript development experience, with features like private packages.
-                </p2>
-                <nav>
-                    <ul class="list3">
-                        <li class="signUpForFree"><a class="middleBtn1" href="https://www.npmjs.com/signup">sign Up For
-                                free</a></li>
-                        <li class="learnAboutPro"><a class="middleBtn2" href="https://www.npmjs.com/products/pro">learn
-                                About Pro</a></li>
-                    </ul>
-                </nav>
+                <div class="inContainer">
+                    <h1>Build amazing <br>things</h1>
+                    <p>
+                        We're GitHub, the company behind the npm Registry and npm CLI. We <br>
+                        offer those to the community for free, but our day job is building and <br>
+                        selling useful tools for developers like you.
+                    </p>
+                    <h2>Take your JavaScript <br>development up a notch</h2>
+                    <p>
+                        Get started today for free, or step up to npm Pro to enjoy a premium <br>
+                        JavaScript development experience, with features like private packages.
+                    </p>
+                    <nav>
+                        <ul class="list3">
+                            <li class="signUpForFree"><a class="middleBtn1" href="https://www.npmjs.com/signup">sign Up
+                                    For
+                                    free</a></li>
+                            <li class="learnAboutPro"><a class="middleBtn2"
+                                    href="https://www.npmjs.com/products/pro">learn
+                                    About Pro</a></li>
+                        </ul>
+                    </nav>
+                </div>
             </div>
 
             <div class="container2"><!--中央2段目-->
@@ -94,13 +111,16 @@
                     the work you do around it, to the next level.
                 </p3>
             </div>
-        </article>
+            <div>
+
+            </div>
+        </section>
     </main>
 
     <footer class="footer">
         <div class="footer-container">
             <div class="unity">
-                <ul class="list5">
+                <ul class="list5 section1">
                     <li><a class="linkBtn" href="https://github.com/"><svg viewBox="0 0 27.23 27.23" width="50"
                                 height="50" aria-hidden="true">
                                 <rect fill="#333333" width="27.23" height="27.23" rx="2"></rect>
@@ -117,7 +137,7 @@
                             </svg></a></li>
                 </ul>
             </div>
-            <div class="section">
+            <div class="section1">
                 <ul class="list5">
                     <li class="title">Support</li>
                     <li class="footerlist"><a class="linkBtn" href="https://docs.npmjs.com/">Help</a></li>
@@ -126,7 +146,7 @@
                     <li class="footerlist"><a class="linkBtn" href="https://www.npmjs.com/support">Contact npm</a></li>
                 </ul>
             </div>
-            <div class="section">
+            <div class="section1">
                 <ul class="list5">
                     <li class="title">Company</li>
                     <li class="footerlist"><a class="linkBtn" href="https://www.npmjs.com/about">About</a></li>
@@ -134,7 +154,7 @@
                     <li class="footerlist"><a class="linkBtn" href="https://github.com/about/press">Press</a></li>
                 </ul>
             </div>
-            <div class="section">
+            <div class="section1">
                 <ul class="list5">
                     <li class="title">Terms & Policies</li>
                     <li class="footerlist"><a class="linkBtn" href="https://docs.npmjs.com/policies">Policies</a></li>
